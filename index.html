@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ja" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>しんぷるメモ</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <header>
+      <h1>しんぷるメモ</h1>
+    </header>
+    <form>
+      <div class="memo-top">
+        <div class="count">
+          <p id="count">文字数: 0  空白抜き: 0</p>
+        </div>
+        <div class="buttons">
+          <button type="button" name="button" id="smaller-btn">ー</button>
+          <button type="button" name="button" id="larger-btn">＋</button>
+          <button type="button" name="button" id="clear-btn">全消去</button>
+        </div>
+      </div>
+      <textarea name="memo" rows="20" cols="80" placeholder="メモを入力してください" id="note"></textarea>
+    </form>
+    <footer>
+      <p>© Shunsuke Oba</p>
+    </footer>
+    <script src="memo.js">
+    </script>
+  </body>
+</html>

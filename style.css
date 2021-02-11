@@ -1,0 +1,74 @@
+body {
+  color: #333;
+  padding: 0px;
+  margin: 0px;
+}
+
+header {
+  background-color: #f7f7f7;
+  padding: 5px 0px;
+}
+
+h1 {
+  text-align: center;
+}
+
+form {
+  padding: 20px 40px;
+}
+
+.memo-top {
+  display: flex;
+  padding: 10px 5px;
+}
+
+.count {
+  position: relative;
+  width: 50%;
+}
+
+.count p {
+  margin: 0px;
+  position: absolute;
+  bottom: 0px;
+}
+
+.buttons {
+  text-align: right;
+  margin-left: auto;
+}
+
+.buttons button {
+  height: 32px;
+  margin: 0px 3px;
+  border-radius: 3px;
+  border-style: solid;
+  border-color: #7f7f7f;
+  border-width: thin;
+}
+
+#larger-btn, #smaller-btn {
+  width: 32px;
+}
+
+#clear-btn {
+  padding: 0px 25px;
+  margin-left: 10px;
+}
+
+textarea {
+  font-size: 1.3em;
+  width: 100%;
+  height: 500px;
+  margin: 0px;
+  box-sizing: border-box;
+  padding: 8px;
+  resize: none;
+  color: #333;
+  border-color: #afafaf;
+  border-radius: 8px;
+}
+
+footer p {
+  text-align: center;
+}
