@@ -40,7 +40,7 @@ form {
 
 .buttons button {
   height: 32px;
-  margin: 0px 3px;
+  margin: 0px;
   border-radius: 3px;
   border-style: solid;
   border-color: #7f7f7f;
@@ -51,8 +51,8 @@ form {
   width: 32px;
 }
 
-#clear-btn {
-  padding: 0px 25px;
+#clear-btn, #copy-btn {
+  padding: 0px 15px;
   margin-left: 10px;
 }
 
